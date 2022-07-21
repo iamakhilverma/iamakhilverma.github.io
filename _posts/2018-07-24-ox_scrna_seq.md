@@ -3,9 +3,10 @@ layout: post
 title:  "Single-cell transcriptomic data analysis"
 date:   2018-07-24 22:21:59 +00:00
 image: /images/research-ox-scrna-seq.png
-categories: research
+categories: work_experience
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"
+experience_type: "Summer Internship"
 venue: "Srinivas Group, University of Oxford"
 code: https://github.com/iamakhilverma/2018-oxford-scrna-seq-analysis.git
 ---

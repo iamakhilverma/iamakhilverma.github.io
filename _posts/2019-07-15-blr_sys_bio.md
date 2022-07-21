@@ -3,9 +3,10 @@ layout: post
 title:  "Systematic construction and validation of kinetic model from metabolic networks"
 date:   2019-07-15 22:21:59 +00:00
 image: /images/research-blr-sys-bio.png
-categories: research
+categories: work_experience
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"
+experience_type: "Summer Internship"
 venue: "Biomolecular Computational Group, Indian Institute of Science Bangalore"
 slides: /pdfs/slides-blr-sys-bio.pdf
 ---
