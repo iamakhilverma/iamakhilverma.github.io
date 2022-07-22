@@ -11,5 +11,4 @@ venue: "Srinivas Group, University of Oxford"
 code: https://github.com/iamakhilverma/2018-oxford-scrna-seq-analysis.git
 ---
 Analysed single-cell transcriptomic data collected from early mouse embryo mutant carrying a mutation in ASPP-2 gene. Processed sequence data files, mapped sequence reads, performed quality control on the individual cells, normalized the data. Identified cell sub-types using an unbiased hierarchical clustering algorithm and expression values for biological marker genes.
-
-NOTE: The code repository for this project is private, please email me for access.
+<br><br>NOTE: The code repository for this project is private, please contact me for access.
