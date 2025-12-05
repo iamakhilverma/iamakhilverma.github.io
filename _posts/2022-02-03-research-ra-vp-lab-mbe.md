@@ -3,7 +3,7 @@ layout: post
 title:  "Host-adaptation dynamics in SARS-CoV-2."
 date:   2022-02-03 22:21:59 +00:00
 image: /images/research-ra-vp-lab-mbe.png
-categories: selected_research
+categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"
 authors: "<strong>Akhil Kumar*</strong>, Nishank Goyal*, Nandhini Saranathan, Sonam Dhamija, Saurabh Saraswat, Manoj B Menon, Vivekanandan Perumal"

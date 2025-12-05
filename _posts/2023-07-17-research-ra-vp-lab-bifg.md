@@ -3,7 +3,7 @@ layout: post
 title:  "Improvement of diagnostic assays against emerging variants of SARS-CoV-2."
 date:   2023-07-17 22:21:59 +00:00
 image: /images/research-ra-vp-lab-bifg.png
-categories: additional_research
+categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"
 authors: "<strong>Akhil Kumar</strong>, Rishika Kaushal, Himanshi Sharma, Khushboo Sharma, Manoj B Menon, Vivekanandan Perumal"

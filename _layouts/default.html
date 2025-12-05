@@ -15,7 +15,16 @@
 
 </head>
 
-
+<!-- This showed us that we need to name the posts with date first or else jekyll won't read them -->
+<!-- DEBUG: list all posts Jekyll sees -->
+<!-- <ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.title }} — {{ post.categories | join: ", " }}
+    </li>
+  {% endfor %}
+</ul>
+ -->
 
 <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -46,7 +55,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Selected Research</h2>
+              <h2>Published Research</h2>
               <p>
                 I'm interested in addressing biomedical problems, particularly in cancer, through functional genomics and systems biology, with an emphasis on computational method development.
               </p>
@@ -57,7 +66,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'selected_research' %}
+          {% if cat == 'published_research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -149,12 +158,14 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.venue}}</em>
+              <!-- <em>{{post.venue}}</em>
               <br>
-              <em>{{post.experience_type}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{post.position}}
+              <br> -->
+              {{post.authors}}
 
+              <br>
+              <em>{{post.publishing_organization}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
@@ -211,7 +222,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Additional Research</h2>
-              <p> A collection of other publications and prior projects.
+              <p> A collection of prior projects.
               </p>
             </td>
           </tr>

@@ -3,7 +3,7 @@ layout: post
 title:  "Cancer Cell of Origin."
 date:   2025-09-17 22:21:59 +00:00
 image: /images/research-sinai-at-lab-coo.png
-categories: selected_research
+categories: published_research
 author: "Akhil Kumar"
 position: "Associate Researcher"
 authors: "Mohamad D Bairakdar*, Wooseung Lee*, Bruno Giotti*, <strong>Akhil Kumar*</strong>, Paula Stancl*, Elvin Wagenblast, Dolores Hambardzumyan, Paz Polak, Rosa Karlic, Alexander M Tsankov"

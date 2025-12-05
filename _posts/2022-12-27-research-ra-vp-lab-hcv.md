@@ -3,7 +3,7 @@ layout: post
 title:  "Host-adaptation dynamics in Hepatitis C virus."
 date:   2022-12-27 22:21:59 +00:00
 image: /images/research-ra-vp-lab-hcv.png
-categories: additional_research
+categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"
 authors: "Sanket Mukherjee*, <strong>Akhil Kumar*</strong>, Jasmine Samal, Ekta Gupta, Vivekanandan Perumal, Manoj B Menon"
