@@ -27,7 +27,7 @@
               <h1>
                 Akhil Kumar
               </h1>
-              <p>I am a Research Fellow at the <a href="https://vperumal.wixsite.com/vivekanandan-perumal">Perumal Lab</a>, part of the <a href="https://bioschool.iitd.ac.in/">School of Biological Sciences</a> at <a href="https://home.iitd.ac.in/">Indian Institute of Technology (IIT) Delhi</a>, where I use bioinformatics tools to understand viral pathogens’ sequencing data. My project advisor is <a href="https://scholar.google.co.in/citations?hl=en&user=CrJnGS0AAAAJ">Vivekanandan Perumal</a>. Before this, I was an undergraduate at the Chemical Engineering Department, <a href="https://home.iitd.ac.in/">Indian Institute of Technology (IIT) Delhi</a>.
+              <p>I am a Chemical Engineering undergraduate from <a href="https://home.iitd.ac.in/">Indian Institute of Technology (IIT) Delhi</a>. I am an Associate Researcher in <a href="https://www.tsankovlab.org/">Tsankov Lab</a> at the <a href="https://icahn.mssm.edu/">Icahn School of Medicine at Mount Sinai</a>, where I leverage single-cell genomics approaches to advance precision medicine for colorectal cancer. Before this, I was a Research Fellow in <a href="https://vperumal.wixsite.com/vivekanandan-perumal">Perumal Lab</a> at the <a href="https://bioschool.iitd.ac.in/">School of Biological Sciences</a> of <a href="https://home.iitd.ac.in/">Indian Institute of Technology (IIT) Delhi</a>, where I used evolutionary bioinformatics approaches to better understand host adaptation dynamics of SARS-CoV-2 and Hepatitis C virus.
               </p>
               <p style="text-align:center">
                 <a href="mailto:akhil.kumar@alumni.iitd.ac.in"> Email</a> &nbsp;/&nbsp;
@@ -46,9 +46,9 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2>Selected Research</h2>
               <p>
-                I'm interested in developing and using bioinformatics tools to understand sequencing data.
+                I'm interested in addressing biomedical problems, particularly in cancer, through functional genomics and systems biology, with an emphasis on computational method development.
               </p>
             </td>
           </tr>
@@ -57,7 +57,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'research' %}
+          {% if cat == 'selected_research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -128,8 +128,8 @@
 
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include unpublished research work from internships, coursework, and side projects. 
+              <h2>Work Under Review</h2>
+              <p> Recent findings currently submitted for peer review. 
               </p>
             </td>
           </tr>
@@ -138,7 +138,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'work_experience' %}
+          {% if cat == 'under_review' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -203,7 +203,91 @@
           {% endfor %}
           {% endfor %}
         </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Additional Research</h2>
+              <p> A collection of other publications and prior projects.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'additional_research' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <!-- <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td> -->
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              <em>{{post.experience_type}}</em>
+              <br>
+              {{ post.date | date: "%Y-%m-%d" }}
+
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.patent %}
+              <a href="{{post.patent}}">patent</a> /
+              {% endif %}
+              {% if post.patent2 %}
+              <a href="{{post.patent2}}">patent #2</a> /
+              {% endif %}
+              {% if post.patent3 %}
+              <a href="{{post.patent3}}">patent #3</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.video2 %}
+              <a href="{{post.video2}}">video #2</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
