@@ -99,6 +99,12 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+tr.paper-highlight td {
+  background-color: #ffffd0;
+  border-top: 8px solid #ffffff;
+  border-bottom: 8px solid #ffffff;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";

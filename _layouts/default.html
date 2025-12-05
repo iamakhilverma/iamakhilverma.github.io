@@ -57,7 +57,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Published Research</h2>
               <p>
-                I'm interested in addressing biomedical problems, particularly in cancer, through functional genomics and systems biology, with an emphasis on computational method development.
+                I'm interested in addressing biomedical problems, particularly in cancer, through functional genomics and systems biology, with an emphasis on computational method development. Selected works are <span class="highlight">highlighted</span>.
               </p>
             </td>
           </tr>
@@ -67,7 +67,7 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'published_research' %}
-          <tr>
+          <tr class="{% if post.highlight %}paper-highlight{% endif %}">
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
