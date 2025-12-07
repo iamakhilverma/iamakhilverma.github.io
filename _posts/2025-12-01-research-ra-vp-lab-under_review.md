@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Host-adapaftation dynamics in SARS-CoV-2."
+title:  "Early mutation blitzkrieg in SARS-CoV-2."
 # date:   2022-02-03 22:21:59 +00:00
 image: /images/research-ra-vp-lab-under_review.png
 categories: under_review
