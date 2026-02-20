@@ -6,7 +6,7 @@ image: /images/research-sinai-at-lab-p53.png
 categories: published_research
 author: "Akhil Kumar"
 position: "Associate Researcher"
-authors: "William Zhao*, Thinh T Nguyen*, Atharva Bhagwat*, <strong>Akhil Kumar*</strong>, Bruno Giotti, ..., Aaron N Hata , Aviv Regev , Bruce E Johnson , Alexander M Tsankov"
+authors: "William Zhao*, Thinh T Nguyen*, Atharva Bhagwat*, <strong>Akhil Kumar*</strong>, Bruno Giotti*, ..., Aaron N Hata , Aviv Regev , Bruce E Johnson , Alexander M Tsankov"
 publishing_organization: "Nature Cancer"
 venue: "Tsankov Lab, Icahn School of Medicine at Mount Sinai"
 paper: https://doi.org/10.1038/s43018-025-01053-7
