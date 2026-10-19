@@ -389,6 +389,22 @@
       </td>
     </tr>
   </table>
+  {% if site.goatcounter and site.goatcounter != "" %}
+  <!-- Privacy-friendly analytics (GoatCounter): no cookies, no personal data. -->
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    // Count every link click as an event, labelled by its destination (e.g. CV, paper, code, LinkedIn).
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a') : null;
+      if (!a || !a.getAttribute('href') || !window.goatcounter || !window.goatcounter.count) return;
+      window.goatcounter.count({
+        path: 'click: ' + a.getAttribute('href'),
+        title: (a.textContent || '').trim().slice(0, 80),
+        event: true
+      });
+    });
+  </script>
+  {% endif %}
 </body>
 
 </html>

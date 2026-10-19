@@ -38,6 +38,10 @@ disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+
+# GoatCounter site code for privacy-friendly analytics (e.g. "akhilkumar" for akhilkumar.goatcounter.com).
+# Leave empty to turn analytics off.
+goatcounter: "akhilkumar"
 # excerpt_separator: <!--more-->
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
