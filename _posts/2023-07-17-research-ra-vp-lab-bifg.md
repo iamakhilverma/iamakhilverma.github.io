@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Improvement of diagnostic assays against emerging variants of SARS-CoV-2."
+title:  "Highly conserved genomic regions in SARS-CoV-2 as diagnostic targets."
 date:   2023-07-17 22:21:59 +00:00
 image: /images/research-ra-vp-lab-bifg.png
 categories: published_research

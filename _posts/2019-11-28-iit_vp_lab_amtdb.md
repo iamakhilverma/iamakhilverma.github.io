@@ -10,4 +10,5 @@ experience_type: "Independent study"
 venue: "Perumal Lab, Indian Institute of Technology Delhi"
 slides: /pdfs/slides-iit-vp-lab-amtdb.pdf
 ---
-Inspected temporal evolution of mono- and dinucleotides in human mtDNA by analysing sequences dated back to 50k BC. Developed boxplots for samples from earliest-, middle- and latest-period; conducted statistical tests to compare their medians. Our findings suggested that lighter strand is becoming heavier, and a slight bias toward GC-rich sequences in ancient reads.
+Curated and filtered 889 human mtDNA sequences spanning ~50,000 years from the Ancient mtDNA Database. Tracked shifts in mono- and dinucleotide composition and observed/expected ratios across time-binned samples, and found significant shifts in TT, AG, and CT dinucleotide ratios over time, with opposing purine trends on the two strands.
+

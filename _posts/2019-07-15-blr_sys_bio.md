@@ -10,4 +10,5 @@ experience_type: "Summer Internship"
 venue: "Biomolecular Computational Group, Indian Institute of Science Bangalore"
 slides: /pdfs/slides-blr-sys-bio.pdf
 ---
-Investigated existing kinetic modelling approaches to translate metabolic networks of interest into a dynamic model. Designed a convenience kinetics based dynamic model comprising 92 reactions, 110 species using complex pathway simulator. Distributed the reactions across 4 compartments and simulated its dynamic characterstics; examined robustness of the model.
+Compared kinetic rate laws (mass-action, Michaelis–Menten, and convenience kinetics) for building dynamic metabolic models. Built a convenience-kinetics model of glycolysis, the TCA cycle, and the respiratory chain in COPASI (92 reactions, 110 species, 4 compartments), simulated its dynamics, and ran parameter sensitivity analysis.
+
