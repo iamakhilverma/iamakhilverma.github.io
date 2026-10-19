@@ -2,7 +2,7 @@
 layout: post
 title:  "In-silico design of small ligand molecules to inhibit early-stage insulin aggregation nucleation"
 date:   2019-11-24 22:21:59 +00:00
-image: /images/research-iit-gg-lab-struc-bioinfo.png
+image: /images/research-iit-gg-lab-struc-bioinfo.png?v=2
 categories: additional_research
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Single-cell transcriptomic data analysis"
 date:   2018-07-24 22:21:59 +00:00
-image: /images/research-ox-scrna-seq.png
+image: /images/research-ox-scrna-seq.png?v=2
 categories: additional_research
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"

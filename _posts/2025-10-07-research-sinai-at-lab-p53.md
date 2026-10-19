@@ -2,7 +2,7 @@
 layout: post
 title:  "A cellular and spatial atlas of TP53-associated tissue remodeling in lung adenocarcinoma."
 date:   2025-10-07 22:21:59 +00:00
-image: /images/research-sinai-at-lab-p53.png
+image: /images/research-sinai-at-lab-p53.png?v=2
 categories: published_research
 author: "Akhil Kumar"
 position: "Associate Researcher"

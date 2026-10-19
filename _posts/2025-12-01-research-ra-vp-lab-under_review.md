@@ -2,7 +2,7 @@
 layout: post
 title:  "Early recurrence of mutations in SARS-CoV-2 predicts predominant mutations."
 date:   2026-10-01 12:00:00 +00:00
-image: /images/research-ra-vp-lab-under_review.png
+image: /images/research-ra-vp-lab-under_review.png?v=2
 categories: under_review
 author: "Akhil Kumar"
 position: "Research Fellow"

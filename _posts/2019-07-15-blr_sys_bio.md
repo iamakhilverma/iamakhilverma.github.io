@@ -2,7 +2,7 @@
 layout: post
 title:  "Systematic construction and validation of kinetic model from metabolic networks"
 date:   2019-07-15 22:21:59 +00:00
-image: /images/research-blr-sys-bio.png
+image: /images/research-blr-sys-bio.png?v=2
 categories: additional_research
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Highly conserved genomic regions in SARS-CoV-2 as diagnostic targets."
 date:   2023-07-17 22:21:59 +00:00
-image: /images/research-ra-vp-lab-bifg.png
+image: /images/research-ra-vp-lab-bifg.png?v=2
 categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"

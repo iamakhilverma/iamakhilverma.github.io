@@ -2,7 +2,7 @@
 layout: post
 title:  "Temporal evolution of mono- and dinucleotides in human mitochondrial DNA"
 date:   2019-11-28 22:21:59 +00:00
-image: /images/research-iit-vp-lab-amtdb.png
+image: /images/research-iit-vp-lab-amtdb.png?v=2
 categories: additional_research
 author: "Akhil Kumar"
 authors: "<strong>Akhil Kumar</strong>"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Host-adaptation dynamics in SARS-CoV-2."
 date:   2022-02-03 22:21:59 +00:00
-image: /images/research-ra-vp-lab-mbe.png
+image: /images/research-ra-vp-lab-mbe.png?v=2
 categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Host-adaptation dynamics in Hepatitis C virus."
 date:   2022-12-27 22:21:59 +00:00
-image: /images/research-ra-vp-lab-hcv.png
+image: /images/research-ra-vp-lab-hcv.png?v=2
 categories: published_research
 author: "Akhil Kumar"
 position: "Research Fellow"

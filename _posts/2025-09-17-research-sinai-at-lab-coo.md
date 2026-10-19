@@ -2,7 +2,7 @@
 layout: post
 title:  "Cancer Cell of Origin."
 date:   2025-09-17 22:21:59 +00:00
-image: /images/research-sinai-at-lab-coo.png
+image: /images/research-sinai-at-lab-coo.png?v=2
 categories: published_research
 author: "Akhil Kumar"
 position: "Associate Researcher"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Stratifying microsatellite-stable colorectal cancer by its tumor microenvironment."
 date:   2026-10-15 12:00:00 +00:00
-image: /images/research-sinai-at-lab-crc.png
+image: /images/research-sinai-at-lab-crc.png?v=2
 categories: under_review
 author: "Akhil Kumar"
 position: "Associate Computational Researcher"
