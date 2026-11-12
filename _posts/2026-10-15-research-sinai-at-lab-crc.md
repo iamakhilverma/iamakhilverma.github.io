@@ -10,4 +10,4 @@ authors: "<strong>Akhil Kumar</strong>, ..., Alexander M Tsankov"
 publishing_organization: "Ongoing"
 venue: "Tsankov Lab, Icahn School of Medicine at Mount Sinai"
 ---
-My primary project integrates bulk, single-cell, and spatial transcriptomics to define molecular subtypes of microsatellite-stable colorectal cancer and understand how their tumor microenvironments differ.
+My primary project integrates bulk, single-cell, and spatial transcriptomics to stratify microsatellite-stable colorectal cancer by its tumor microenvironment and identify immune evasion mechanisms in each subtype.
